@@ -1,0 +1,197 @@
+*
+{
+  margin: 0;
+  padding: 0;
+
+
+}
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(lie.png);
+  background-size:cover;
+  background-position: center;
+  
+}
+
+.logo{
+  height: 50px;
+  width: 100px;
+  position: relative;
+  left: 5%;
+  top: 10%;
+  cursor: pointer;
+}
+
+.navbar{
+  width: 95%;
+  margin: auto;
+  padding: 15px 0;
+  display: flex;
+  align-items: center ;
+  justify-content: space-between;
+  font-family: cascadia code ;
+  
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 10px 10px;
+  position: relative;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+
+}
+
+.navbar ul li::after{
+content: '';
+height: 3px;
+width: 0%;
+background: #843e8d;
+position: absolute;
+left: 0;
+bottom: -10px;
+transition: width 0.5s;
+}
+
+.navbar ul li:hover::after{
+  width: 100%;
+
+}
+
+@import url('http://fonts.cdnfonts.com/css/uchiyama');
+
+.head{
+  position:absolute;
+  left: 37%;
+  top: 10%;
+  font-size: 200%;
+  font-family:  'Uchiyama', sans-serif;
+  color: rgba(247, 241, 241, 0.55);
+}
+.img1{
+  border-radius: 8px;
+  height: 310px;
+  position: absolute;
+  left: 5%;
+  top: 40%;
+  cursor: pointer;
+  transition: 0.5s;
+  
+}
+.img1:hover{
+  box-shadow: 8px 8px 5px ;
+  opacity: 0.7;
+
+
+}
+.img5{
+  border-radius: 8px;
+  width: 220px;
+  height: 300px;
+  position: absolute;
+  left: 45%;
+  top: 40%;
+  cursor: pointer;
+  transition: 0.5s;
+
+}
+
+.img5:hover{
+  box-shadow: 8px 8px 5px ;
+  opacity: 0.7;
+
+
+}
+
+.cart-page{
+  margin: 80px auto;
+}
+.t2{
+  position: absolute;
+  left: 62%;
+  top: 54%;
+  font-family:  'Uchiyama', sans-serif;
+  color: rgba(247, 241, 241, 0.55);
+
+}
+
+
+.t1{
+  position: absolute;
+  left: 22%;
+  top: 54%;
+  font-family:  'Uchiyama', sans-serif;
+  color: rgba(247, 241, 241, 0.55);
+s
+}
+
+.tot{
+  font-family:  'Uchiyama', sans-serif;
+  color : rgba(247, 241, 241, 0.75);
+  font-size : 200%;
+  background-color: rgba(162, 19, 206, 0.25);
+  border-radius:6px;
+  
+  position: absolute;
+  left: 80%;
+  top : 37%;
+
+}
+.sum1{
+  font-family:  'Uchiyama', sans-serif;
+  color: rgba(247, 241, 241, 0.55);
+  font-size: 100%;
+  
+  position: absolute;
+  left: 84%;
+  top: 50%;
+  
+
+}
+
+.sum2{
+  font-family:  'Uchiyama', sans-serif;
+  color: rgba(247, 241, 241, 0.55);
+  font-size: 100%;
+  
+  position: absolute;
+  left: 83.2%;
+  top: 56%;
+
+}
+
+.sum3{
+  font-family:  'Uchiyama', sans-serif;
+  color: rgba(247, 241, 241, 0.55);
+  font-size: 170%;
+  
+  position: absolute;
+  left: 84%;
+  top: 69%;
+
+}
+.line{
+  font-family:  'Uchiyama', sans-serif;
+  color: rgba(247, 241, 241, 0.55);
+  font-size: 170%;
+  
+  position: absolute;
+  left: 82%;
+  top: 63%;
+
+}
+.line2{
+  font-family:  'Uchiyama', sans-serif;
+  color: rgba(247, 241, 241, 0.55);
+  font-size: 170%;
+  
+  position: absolute;
+  left: 82%;
+  top: 75%;
+
+}

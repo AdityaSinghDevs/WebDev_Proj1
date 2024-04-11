@@ -1,0 +1,193 @@
+*
+{
+  margin: 0;
+  padding: 0;
+
+
+}
+.banner{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(papers.co-bd04-yourname-anime-summer-art-illustration-29-wallpaper.jpg);
+  background-size:cover;
+  background-position: center;
+  
+}
+.logo{
+  height: 100px;
+  width: 300px;
+  position: relative;
+  cursor: pointer;
+}
+
+.navbar{
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center ;
+  justify-content: space-between;;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar ul li{
+  list-style: none;
+  display: inline-block;
+  margin: 20px 20px;
+  position: relative;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+
+}
+
+.navbar ul li::after{
+content: '';
+height: 3px;
+width: 0%;
+background: #843e8d;
+position: absolute;
+left: 0;
+bottom: -10px;
+transition: width 0.5s;
+}
+
+.navbar ul li:hover::after{
+  width: 100%;
+
+}
+.searchbox{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #F9EBC8;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+  
+}
+.searchbox:hover > .searchtxt{
+  width: 240px;
+    padding: 0 6px;
+    top: 50px;
+  
+  }
+
+.searchbox:hover > .searchbtn{
+    
+    background: rgb(95, 86, 86);
+    
+  }
+
+.searchbtn{
+  color: #F9EBC8;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background:#843e8d ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;  
+  text-decoration: none;
+}
+
+
+
+.searchtxt{
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: rgb(70, 61, 61);
+  font-size: 16px;
+  transition: 0.7s;
+  line-height: 40px;
+  width: 0px;
+}
+
+
+@import url('http://fonts.cdnfonts.com/css/uchiyama');
+
+                
+
+.row
+{
+  font-family: 'Uchiyama', sans-serif;
+                                                
+                                                
+
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  font-size: 200%;
+  color: rgba(247, 241, 241, 0.55);
+}
+
+.col-2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  font-size: 120%;
+  color: rgba(247, 241, 241, 0.55);
+
+}
+
+.sliderframe{
+  overflow: hidden;
+  height: 700px;
+  width: 300px;
+  top: 30%;
+  left: 60%;
+
+  
+}
+
+@-webkit-keyframes slide_animation{
+  0%{left: 0px;}
+  10%{left: 0px;}
+  20%{left: 1200px;}
+  30%{left: 1200px;}
+  40%{left: 2400px;}
+  50%{left: 2400px;}
+  60%{left: 1200px;}
+  70%{left: 1200px;}
+  80%{left: 0px;}
+  90%{left: 0px;}
+  100%{left: 0px;}
+
+
+}
+.slideimgs{
+  width: 3600px;
+  height: 600px;
+  margin:  100px 0px 0px -2400px;
+  position:relative;
+  top: 10% ;
+  -webkit-animation-name: slide_animation;
+  -webkit-animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-play-state: running;
+  
+}
+
+.imgcontainer{
+  height: 800px;
+  width: 1200px;
+  position: relative;
+  top: -20%;
+  float: left;
+}
+
+.mark{
+  position: relative;
+  
+  top: 35%;
+}
